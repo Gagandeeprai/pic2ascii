@@ -22,12 +22,13 @@ Make sure you have a **C++17+ compiler** and **OpenCV** installed.
 
 ```bash
 sudo apt update
-sudo apt install g++ libopencv-dev
+sudo apt install g++
+sudo apt install libjpeg-dev libpng-dev
 ```
 Then clone and build:
 
 ```bash
-git clone https://github.com/<your-username>/pic2ascii.git
+git clone https://github.com/Gagandeeprai/pic2ascii.git
 cd pic2ascii
 mkdir -p build
 g++ src/*.cpp -Iinclude -o build/pic2ascii
