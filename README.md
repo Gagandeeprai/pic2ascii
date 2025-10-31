@@ -22,8 +22,7 @@ Make sure you have a **C++17+ compiler** and **OpenCV** installed.
 
 ```bash
 sudo apt update
-sudo apt install g++
-sudo apt install libjpeg-dev libpng-dev
+sudo apt install g++ libjpeg-dev libpng-dev
 ```
 Then clone and build:
 
@@ -36,7 +35,6 @@ g++ src/*.cpp -Iinclude -o build/pic2ascii
 Run from build/:
 
 ```bash
-Copy code
 ./build/pic2ascii --help
 ```
 🧠 Usage
