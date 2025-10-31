@@ -67,6 +67,8 @@ pic2ascii myphoto.jpg --output out.txt
 ```
 
 ## 🧪 Example Output
+Used reference image:
+![Source](assets/test.jpeg)
 
 ### 🎨 Color Output
 ```bash
