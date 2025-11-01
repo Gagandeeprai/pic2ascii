@@ -36,6 +36,10 @@ Run from build/:
 
 ```bash
 ./build/pic2ascii --help
+
+# (Optional) Install globally so you can use 'pic2ascii' anywhere
+sudo cp build/pic2ascii /usr/local/bin/pic2ascii
+
 ```
 🧠 Usage
 ```bash
