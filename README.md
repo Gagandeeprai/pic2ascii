@@ -18,7 +18,7 @@ It supports automatic width detection, custom sizing, text output, and more.
 
 ## 🧩 Installation
 
-Make sure you have a **C++17+ compiler** and **OpenCV** installed.
+Make sure you have a **C++17+ compiler** installed.
 
 ```bash
 sudo apt update
@@ -39,7 +39,15 @@ Run from build/:
 
 # (Optional) Install globally so you can use 'pic2ascii' anywhere
 sudo cp build/pic2ascii /usr/local/bin/pic2ascii
+```
+## 🪟 Windows (WSL) Tip
+### If you're using Windows Subsystem for Linux (WSL), you can access your Windows files (like those in Downloads or Desktop) directly from your Linux terminal.
+```bash
+# Go to your Windows Downloads folder
+cd /mnt/c/Users/<your-username>/Downloads
 
+# Run pic2ascii on an image from there
+~/pic2ascii/build/pic2ascii "myphoto (1).jpg"
 ```
 🧠 Usage
 ```bash
